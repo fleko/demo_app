@@ -10,7 +10,9 @@ gem 'rails', '3.1.1'
 #gem 'sqlite3'
 #gem 'sqlite3', '1.3.3', :group => :development
 
-group :development, :test do   gem 'sqlite3' end
+group :development, :test do   
+	gem 'sqlite3', '1.3.4' 
+end
 
 group :production do
   gem 'therubyracer-heroku', '0.8.1.pre3' 
